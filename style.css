@@ -161,6 +161,10 @@ header {
     color: #dcdcdc;
 }
 
+.header-left > h2 {
+    font-size: clamp(1.2rem, 0.694vw + 0.978rem, 1.8rem);
+}
+
 .gradient{
     background: linear-gradient(to right,#008baa,#7e42a7,#6600c5,#6070fd,#2a46ff,#0099ff,#008ead);
     background-size: 200%;
@@ -343,4 +347,14 @@ header {
     to{
         background-position: 200%;
     }
+}
+
+
+.nav-links{
+    display: flex;
+    column-gap: 3rem;
+}
+
+.fw-bold {
+    font-weight: bold;
 }
